@@ -1,0 +1,271 @@
+* {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+body{
+    background-color: hsl(27, 66%, 92%);
+}
+
+#main_block{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 370px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#block_top{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#text_my_balance{
+    font-size: small;
+    color: white;
+    margin: 0%;
+    margin-bottom: 6px;
+}
+
+#price_block_top{
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+    margin: 0%;
+}
+
+#block_text_bottom{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#title_block_bottom{
+    font-weight: bold;
+    color: hsl(25, 47%, 15%);
+    margin: 0px;
+    margin-left: 2px;
+    font-size: 22px;
+}
+
+#graf_day{
+    border-bottom: solid 1px hsl(27, 66%, 92%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.days{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.para_day{
+    margin-top: 0px;
+    font-size: x-small;
+    font-weight: 300;
+    color: hsl(28, 10%, 53%);
+    margin-top: 4px;
+}
+
+.block_data{
+    height: 134px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.blok_price{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 30px;
+}
+
+.price{
+    margin: 0px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: hsl(25, 47%, 15%);
+    border-radius: 4px;
+    padding: 5px;
+    opacity: 0;
+}
+
+#data_mon{
+    width: 80%;
+    height: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 4px;
+}
+
+#data_mon:hover{
+    background-color: hsl(10, 79%, 75%) ;
+}
+
+#data_tue{
+    width: 80%;
+    height: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 4px;
+}
+
+#data_tue:hover{
+    background-color: hsl(10, 79%, 75%) ;
+}
+
+#data_wed{
+    width: 80%;
+    height: 104px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: hsl(186, 34%, 60%);
+    border-radius: 4px;
+}
+
+#data_thu{
+    width: 80%;
+    height: 62px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 4px;
+}
+
+#data_thu:hover{
+    background-color: hsl(10, 79%, 75%) ;
+}
+
+#data_fri{
+    width: 80%;
+    height: 46px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 4px;
+}
+
+#data_fri:hover{
+    background-color: hsl(10, 79%, 75%) ;
+}
+
+#data_sat{
+    width: 80%;
+    height: 86px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 4px;
+}
+
+#data_sat:hover{
+    background-color: hsl(10, 79%, 75%) ;
+}
+
+#data_sun{
+    width: 80%;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 4px;
+}
+
+#data_sun:hover{
+    background-color: hsl(10, 79%, 75%) ;
+}
+
+#final_block{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+#totalmonth{
+    font-size: 12px;
+    margin: 0px;
+    color: hsl(28, 10%, 53%);
+}
+
+#pricetotalmonth{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0px;
+    color: hsl(25, 47%, 15%);
+}
+
+#block_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+
+}
+
+#ajustement{
+    color: hsl(25, 47%, 15%);
+    font-weight: bold;
+    margin: 0px;
+}
+
+#fromlastmonth{
+    margin: 0px;
+    margin-bottom: 4px;
+    color: hsl(28, 10%, 53%);
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 375px) {
+    #main_block{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #block_top{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #block_text_bottom{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .days{
+        width: 12%;
+    }
+
+    .price{
+        width: 10px;
+    }
+}
+
